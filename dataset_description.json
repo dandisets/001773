@@ -1,0 +1,12 @@
+{
+  "Name": "SCC-DBS white matter, functional connectivity, and histological dataset",
+  "BIDSVersion": "1.8.0",
+  "DatasetType": "derivative",
+  "Authors": [
+    "Satoka Fujimoto"
+  ],
+  "Description": "This dataset contains processed neuroimaging, histological, and behavioral data associated with SCC-DBS experiments, including tract-specific FA measurements, functional connectivity values, immunofluorescence quantification data, g-ratio measurements derived from electron microscopy, and behavioral metrics.",
+  "Acknowledgements": "Data associated with Nature Neuroscience manuscript.",
+  "HowToAcknowledge": "Please cite the associated publication.",
+  "License": "CC-BY-4.0"
+}

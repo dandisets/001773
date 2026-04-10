@@ -7,9 +7,17 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_016124
+    name: Brain Imaging Data Structure (BIDS)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 3197077
+  numberOfFiles: 52
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Fujimoto, Satoka (2026) Deep brain stimulation induces white matter remodeling
   and functional changes to brain-wide networks (Version draft) [Data set]. DANDI
   Archive. https://dandiarchive.org/dandiset/001773/draft
