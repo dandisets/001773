@@ -23,7 +23,7 @@ assetsSummary:
   variableMeasured: []
 citation: Fujimoto, Satoka (2026) Fujimoto et al., Nat. Neurosci. 2026, Deep brain
   stimulation induces white matter remodeling and functional changes to brain-wide
-  networks (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001773/draft
+  networks (Version 0.260412.1743) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001773/0.260412.1743
 contributor:
 - affiliation:
   - name: University of Minnesota
@@ -43,24 +43,38 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2026-04-01T21:21:45.265953+00:00'
+datePublished: '2026-04-12T17:43:07.090154+00:00'
 description: Data and code (fMRI, DWI IF, EM, behavior)
+doi: 10.48324/dandi.001773/0.260412.1743
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: Icahn School of Medicine Animal Care and Use Commitee (IACUC-2014-0224)
   schemaKey: EthicsApproval
-id: DANDI:001773/draft
+id: DANDI:001773/0.260412.1743
 identifier: DANDI:001773
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001773/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001773/0.260412.1743/assets.yaml
 name: Fujimoto et al., Nat. Neurosci. 2026, Deep brain stimulation induces white matter
   remodeling and functional changes to brain-wide networks
+publishedBy:
+  endDate: '2026-04-12T17:43:07.090154+00:00'
+  id: urn:uuid:7037b040-33c2-42db-acf8-679084a43dc8
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-04-12T17:43:07.090154+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:a4299334-e010-4407-88ca-f1663e7d3b96
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001773/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001773/0.260412.1743
+version: 0.260412.1743
 wasGeneratedBy: []
