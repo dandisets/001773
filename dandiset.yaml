@@ -3,9 +3,12 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: Hope for Depression Research Foundation, NIMH, the BRAIN initiative,
+  NINDS, Takeda Science Foundation and Brain & Behavior Research Foundation
 assetsSummary:
   approach: []
   dataStandard:
@@ -13,34 +16,51 @@ assetsSummary:
     name: Brain Imaging Data Structure (BIDS)
     schemaKey: StandardsType
   measurementTechnique: []
-  numberOfBytes: 3197077
-  numberOfFiles: 52
+  numberOfBytes: 3222762
+  numberOfFiles: 54
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Fujimoto, Satoka (2026) Deep brain stimulation induces white matter remodeling
-  and functional changes to brain-wide networks (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001773/draft
+citation: Fujimoto, Satoka (2026) Fujimoto et al., Nat. Neurosci. 2026, Deep brain
+  stimulation induces white matter remodeling and functional changes to brain-wide
+  networks (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001773/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: University of Minnesota
+    schemaKey: Affiliation
   email: sfujimot@umn.edu
   includeInCitation: true
   name: Fujimoto, Satoka
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- affiliation:
+  - name: Icahn School of Medicine at Mount Sinai
+    schemaKey: Affiliation
+  email: peter.rudebeck@mssm.edu
+  name: Rudebeck, Peter
+  roleName:
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2026-04-01T21:21:45.265953+00:00'
-description: Data and code
+description: Data and code (fMRI, DWI IF, EM, behavior)
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: Icahn School of Medicine Animal Care and Use Commitee (IACUC-2014-0224)
+  schemaKey: EthicsApproval
 id: DANDI:001773/draft
 identifier: DANDI:001773
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001773/versions/draft/assets/
-name: Deep brain stimulation induces white matter remodeling and functional changes
-  to brain-wide networks
+name: Fujimoto et al., Nat. Neurosci. 2026, Deep brain stimulation induces white matter
+  remodeling and functional changes to brain-wide networks
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 url: https://dandiarchive.org/dandiset/001773/draft
 version: draft
+wasGeneratedBy: []
