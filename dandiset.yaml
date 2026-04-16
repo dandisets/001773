@@ -7,8 +7,9 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: Hope for Depression Research Foundation, NIMH, the BRAIN initiative,
-  NINDS, Takeda Science Foundation and Brain & Behavior Research Foundation
+acknowledgement: Hope for Depression Research Foundation, NIMH(RF1MH132789, R01MH132789),
+  the BRAIN initiative, NINDS, Takeda Science Foundation and Brain & Behavior Research
+  Foundation
 assetsSummary:
   approach: []
   dataStandard:
@@ -21,9 +22,9 @@ assetsSummary:
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Fujimoto, Satoka (2026) Fujimoto et al., Nat. Neurosci. 2026, Deep brain
-  stimulation induces white matter remodeling and functional changes to brain-wide
-  networks (Version 0.260412.1743) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001773/0.260412.1743
+citation: Fujimoto, Satoka; Rudebeck, Peter (2026) Fujimoto et al., Nat. Neurosci.
+  2026, Deep brain stimulation induces white matter remodeling and functional changes
+  to brain-wide networks (Version 0.260416.1939) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001773/0.260416.1939
 contributor:
 - affiliation:
   - name: University of Minnesota
@@ -38,35 +39,45 @@ contributor:
   - name: Icahn School of Medicine at Mount Sinai
     schemaKey: Affiliation
   email: peter.rudebeck@mssm.edu
+  includeInCitation: true
   name: Rudebeck, Peter
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- name: Hope for Depression Research Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: RF1MH132789, R01MH132789
+  name: The National Institute of Mental Health (NIMH)
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-04-01T21:21:45.265953+00:00'
-datePublished: '2026-04-12T17:43:07.090154+00:00'
+datePublished: '2026-04-16T19:39:08.775877+00:00'
 description: Data and code (fMRI, DWI IF, EM, behavior)
-doi: 10.48324/dandi.001773/0.260412.1743
+doi: 10.48324/dandi.001773/0.260416.1939
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: Icahn School of Medicine Animal Care and Use Commitee (IACUC-2014-0224)
   schemaKey: EthicsApproval
-id: DANDI:001773/0.260412.1743
+id: DANDI:001773/0.260416.1939
 identifier: DANDI:001773
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/001773/0.260412.1743/assets.yaml
+- https://dandiarchive.s3.amazonaws.com/dandisets/001773/0.260416.1939/assets.yaml
 name: Fujimoto et al., Nat. Neurosci. 2026, Deep brain stimulation induces white matter
   remodeling and functional changes to brain-wide networks
 publishedBy:
-  endDate: '2026-04-12T17:43:07.090154+00:00'
-  id: urn:uuid:7037b040-33c2-42db-acf8-679084a43dc8
+  endDate: '2026-04-16T19:39:08.775877+00:00'
+  id: urn:uuid:215c9f14-d1ea-4b37-81c7-f67e66ff0274
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2026-04-12T17:43:07.090154+00:00'
+  startDate: '2026-04-16T19:39:08.775877+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:a4299334-e010-4407-88ca-f1663e7d3b96
+  - id: urn:uuid:8d13ccfc-f2f9-4cc5-ab5c-83abc0171760
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -75,6 +86,6 @@ relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001773/0.260412.1743
-version: 0.260412.1743
+url: https://dandiarchive.org/dandiset/001773/0.260416.1939
+version: 0.260416.1939
 wasGeneratedBy: []
