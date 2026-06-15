@@ -54,7 +54,8 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-04-01T21:21:45.265953+00:00'
-description: Data and code (fMRI, DWI IF, EM, behavior)
+description: 'DOI: https://doi.org/10.1038/s41593-026-02301-4 Data and code (fMRI,
+  DWI IF, EM, behavior)'
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
